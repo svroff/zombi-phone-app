@@ -1,0 +1,14 @@
+/* src/index.css */
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.zombie-title {
+  font-family: 'Creepster', cursive;
+}
+
+.zombi-h1, h1 {
+  font-family: 'Creepster', cursive;
+}

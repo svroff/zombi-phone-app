@@ -1,0 +1,15 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.image-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.banner-container {
+  width: 100%;
+  overflow: hidden;
+}
