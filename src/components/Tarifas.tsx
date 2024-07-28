@@ -11,7 +11,7 @@ interface TarifasProps {
 
 const Tarifas: React.FC<TarifasProps> = ({content}) => {
   return (
-    <div className="flex justify-center p-6 flex-col bg-slate-100">
+    <div className="flex justify-center p-6 flex-col bg-slate-300">
         <div>{content.titulo}</div>
         <div>{content.precios}</div>
     </div>

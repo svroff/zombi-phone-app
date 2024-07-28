@@ -44,27 +44,52 @@ function App() {
         content={{
           titulo: (
             <div className="flex flex-col items-center text-3xl">
-              <h1 className="zombi-h1 text-lime-700">Nuestro ZOMBI no sólo come cerebros,</h1>
-              <h1 className="zombi-h1 text-lime-700">también devora tarifas competitivas!</h1>
+              <h1 className="zombi-h1 text-cyan-900">
+                Nuestro ZOMBI no sólo come cerebros,
+              </h1>
+              <h1 className="zombi-h1 text-cyan-900">
+                también devora tarifas competitivas!
+              </h1>
             </div>
           ),
 
           precios: (
-            <div className="flex justify-center p-6 gap-4">
-              <div className="flex items-center flex-col gap-2">
+            <div className="flex justify-center p-6 gap-4 bg">
+              <div className="flex items-center flex-col gap-2 border border-black shadow-xl rounded-2xl p-4 bg-slate-100">
                 <span className="font-bold text-2xl">LÍNEA MÓVIL</span>
                 <span>LLAMADAS ILIMITADAS</span>
-                <span className="font-bold text-2xl border border-black">20GB</span>
+                <span className="font-bold text-2xl border border-black rounded p-4">
+                  20GB
+                </span>
+                <div className="flex flex-col items-center border border-black rounded p-4 bg-lime-500">
+                  <span className="font-bold text-xl">9,90€ / mes</span>
+                  <span className="italic ">IVA INCL</span>
+                </div>
+                <span>VER DETALLES</span>
               </div>
-              <div className="flex items-center flex-col gap-2">
+              <div className="flex items-center flex-col gap-2 border border-black shadow-xl p-4 rounded-2xl bg-slate-100">
                 <span className="font-bold text-2xl">LÍNEA MÓVIL</span>
                 <span>LLAMADAS ILIMITADAS</span>
-                <span className="font-bold text-2xl">50GB</span>
+                <span className="font-bold text-2xl border border-black rounded p-4">
+                  50GB
+                </span>
+                <div className="flex flex-col items-center border border-black rounded p-4 bg-lime-500">
+                  <span className="font-bold text-xl">14,90€ / mes</span>
+                  <span className="italic ">IVA INCL</span>
+                </div>
+                <span>VER DETALLES</span>
               </div>
-              <div className="flex items-center flex-col gap-2">
+              <div className="flex items-center flex-col gap-2 border border-black p-4 shadow-xl rounded-2xl bg-slate-100">
                 <span className="font-bold text-2xl">FIBRA + MÓVIL</span>
                 <span>LLAMADAS ILIMITADAS</span>
-                <span className="font-bold text-2xl">25GB</span>
+                <span className="font-bold text-2xl border border-black rounded p-4">
+                  25GB
+                </span>
+                <div className="flex flex-col items-center border border-black rounded p-4 bg-lime-500">
+                  <span className="font-bold text-xl">32,90€ / mes</span>
+                  <span className="italic ">IVA INCL</span>
+                </div>
+                <span>VER DETALLES</span>
               </div>
             </div>
           ),
