@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import PrimerBanner from "./components/PrimerBanner";
 import Tarifas from "./components/Tarifas";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -54,7 +55,7 @@ function App() {
           ),
 
           precios: (
-            <div className="flex justify-center p-6 gap-4 bg">
+            <div className="flex justify-center p-6 gap-8 bg">
               <div className="flex items-center flex-col gap-2 border border-black shadow-xl rounded-2xl p-4 bg-slate-100">
                 <span className="font-bold text-2xl">LÍNEA MÓVIL</span>
                 <span>LLAMADAS ILIMITADAS</span>
@@ -92,6 +93,24 @@ function App() {
                 <span>VER DETALLES</span>
               </div>
             </div>
+          ),
+        }}
+      />
+
+      <Footer
+        content={{
+          menu: (
+            <ul className="flex gap-4 list-none text-black">
+              <li className="cursor-pointer">
+                <a href="">CONTACTAR</a>
+              </li>
+              <li className="cursor-pointer">
+                <a href="">AVISO LEGAL</a>
+              </li>
+              <li className="cursor-pointer">
+                <a href="">POLÍTICAS DE COOKIES</a>
+              </li>
+            </ul>
           ),
         }}
       />
